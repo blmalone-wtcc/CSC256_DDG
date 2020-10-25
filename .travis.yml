@@ -5,4 +5,4 @@ python:
 install:
  - "pip install pytest"
  - "pip install requests"
-script: pytest
+script: python -m pytest
